@@ -45,7 +45,8 @@ CREATE TABLE dbo.NumberParity (
 );
 GO
 
---create new trigger to find if number is even or odd--won't find extra messages after insert
+--create new trigger to find if number is even 
+or odd--won't find extra messages after insert
 --
 
 CREATE TRIGGER dbo.ParityTest
